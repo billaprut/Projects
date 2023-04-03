@@ -1,0 +1,1001 @@
+movie_title,gross,budget,title_year,genre,IMDB_high
+The Conspirator,11.538204,25,2010,Crime,YES
+Finding Forrester,51.768623,43,2000,Drama,YES
+The Hebrew Hammer,0.019539,1,2003,Comedy,NO
+The R.M.,1.111615,0.5,2003,Comedy,NO
+Bandidas,47.23378622,32,2006,Action,NO
+Spring Breakers,14.123773,5,2012,Crime,NO
+Suspect Zero,8.712564,27,2004,Crime,NO
+Sinbad: Legend of the Seven Seas,26.28832,60,2003,Adventure,NO
+The Vow,125.01403,30,2012,Drama,NO
+Cyrus,7.455447,7,2010,Comedy,NO
+College,4.693919,6.5,2008,Comedy,NO
+Skin Trade,0.000162,9,2014,Action,NO
+"O Brother, Where Art Thou?",45.506619,26,2000,Adventure,YES
+Joyeux Noel,1.050445,22,2005,Drama,YES
+Four Christmases,120.136047,80,2008,Comedy,NO
+Hotel Rwanda,23.4729,17.5,2004,Drama,YES
+"Lovely, Still",0.12472,5,2008,Drama,YES
+Dawn of the Dead,58.885635,26,2004,Action,YES
+Boogeyman,46.363118,20,2005,Drama,NO
+Live-In Maid,47.23378622,0.8,2004,Drama,YES
+Harrison Montgomery,47.23378622,0.85,2008,Drama,YES
+The Astronaut Farmer,10.99644,13,2006,Adventure,NO
+The Painted Veil,8.04769,19.4,2006,Drama,YES
+The Brothers Grimm,37.899638,88,2005,Action,NO
+Latter Days,0.819939,0.85,2003,Comedy,YES
+The Railway Man,4.435083,18,2013,Biography,YES
+All Superheroes Must Die,47.23378622,0.02,2011,Other,NO
+Get on Up,30.51394,30,2014,Biography,NO
+Gangster Squad,45.996718,60,2013,Action,NO
+Two Weeks Notice,93.307796,60,2002,Comedy,NO
+Cast Away,233.630478,90,2000,Adventure,YES
+Da Sweet Blood of Jesus,47.23378622,1.42,2014,Comedy,NO
+Obitaemyy ostrov,47.23378622,29.5,2009,Action,NO
+2 Fast 2 Furious,127.083765,76,2003,Action,NO
+Inception,292.568851,160,2010,Action,YES
+A Mighty Heart,9.17281,16,2007,Biography,NO
+Alex & Emma,14.208384,30,2003,Comedy,NO
+The Last Samurai,111.110575,140,2003,Action,YES
+The Young and Prodigious T.S. Spivet,0.099462,33,2013,Action,YES
+Supernova,14.218868,65,2000,Horror,NO
+Cadillac Records,8.134217,12,2008,Biography,YES
+The Legend of Zorro,45.356386,75,2005,Action,NO
+Everything Put Together,47.23378622,0.1,2000,Drama,NO
+Delgo,0.51192,40,2008,Adventure,NO
+The Purge,64.42365,3,2013,Horror,NO
+Indie Game: The Movie,47.23378622,0.1,2012,Documentary,YES
+Mutual Appreciation,47.23378622,44.87003308,2005,Comedy,NO
+The Blue Room,0.231186,44.87003308,2014,Crime,NO
+Bachelorette,0.418268,3,2012,Comedy,NO
+The Matrix Revolutions,139.259759,150,2003,Action,NO
+Kill the Messenger,2.445646,5,2014,Biography,YES
+Abandon,10.719367,25,2002,Drama,NO
+Food Chains,47.23378622,0.913,2014,Documentary,YES
+Chain Letter,0.143,5,2009,Horror,NO
+Malevolence,47.23378622,0.2,2003,Crime,NO
+Kiss the Bride,0.031937,0.5,2007,Comedy,NO
+Prom,10.106233,8,2011,Comedy,NO
+The Core,31.11126,60,2003,Action,NO
+Hanging Up,36.037909,60,2000,Comedy,NO
+Stuart Little 2,64.736114,120,2002,Adventure,NO
+Stomp the Yard,61.356221,14,2007,Drama,NO
+Far from Men,47.23378622,7.7,2014,Drama,YES
+Redacted,0.065087,5,2007,Crime,NO
+Mao's Last Dancer,4.80675,44.87003308,2009,Biography,YES
+Girl with a Pearl Earring,11.634362,44.87003308,2003,Biography,YES
+Body of Lies,39.380442,70,2008,Action,YES
+Super Size Me,11.529368,0.065,2004,Comedy,YES
+Funny Ha Ha,47.23378622,44.87003308,2002,Comedy,NO
+Captain Alatriste: The Spanish Musketeer,47.23378622,24,2006,Adventure,NO
+Doogal,7.382993,20,2006,Adventure,NO
+Sideways,71.502303,12,2004,Adventure,YES
+Hum To Mohabbat Karega,47.23378622,44.87003308,2000,Action,NO
+The Proposition,1.900725,2,2005,Crime,YES
+Silent House,12.55523,2,2011,Drama,NO
+The Wave,47.23378622,5,2008,Drama,YES
+Decoys,47.23378622,5,2004,Comedy,NO
+Killers,47.000485,75,2010,Action,NO
+Biutiful,5.100937,44.87003308,2010,Drama,YES
+Disturbia,80.050171,20,2007,Drama,NO
+"Cinco de Mayo, La Batalla",0.169379,10,2013,Drama,NO
+Bridesmaids,169.076745,32.5,2011,Comedy,NO
+Half Nelson,2.694973,0.7,2006,Drama,YES
+The Cottage,47.23378622,2.5,2008,Comedy,NO
+Mr 3000,21.800302,30,2004,Comedy,NO
+Lost Souls,16.779636,28,2000,Drama,NO
+The Class,3.766595,44.87003308,2008,Drama,YES
+Dolphin Tale 2,42.019483,36,2014,Drama,NO
+Blue Car,0.464126,1,2002,Drama,NO
+The Believer,0.406035,1.5,2001,Drama,YES
+Jeepers Creepers,37.470017,10,2001,Horror,NO
+"Batman: The Dark Knight Returns, Part 2",47.23378622,3.5,2013,Action,YES
+Red Riding: In the Year of Our Lord 1974,47.23378622,44.87003308,2009,Crime,YES
+"I, Frankenstein",19.059018,65,2014,Action,NO
+Vantage Point,72.266306,40,2008,Crime,NO
+Johnny English,27.97241,35,2003,Action,NO
+Real Women Have Curves,5.844929,3,2002,Comedy,YES
+Jarhead,62.64754,70,2005,Action,YES
+Repo! The Genetic Opera,0.140244,8.5,2008,Horror,NO
+88 Minutes,16.930884,30,2007,Crime,NO
+Snow Dogs,81.150692,35,2002,Adventure,NO
+Coraline,75.280058,60,2009,Animation,YES
+Waitress,19.067631,2,2007,Comedy,YES
+Love Ranch,0.134904,25,2010,Comedy,NO
+Jersey Boys,47.034272,40,2014,Biography,NO
+Little Nicky,39.442871,80,2000,Comedy,NO
+Take Shelter,1.729969,5,2011,Drama,YES
+The Country Bears,16.988996,35,2002,Comedy,NO
+Jeepers Creepers II,35.143332,17,2003,Horror,NO
+Super,0.322157,2.5,2010,Comedy,NO
+American Gangster,130.12762,100,2007,Biography,YES
+Reign of Fire,43.060566,60,2002,Action,NO
+Race to Witch Mountain,67.128202,65,2009,Action,NO
+Hedwig and the Angry Inch,3.029081,6,2001,Comedy,YES
+In the Name of the King: A Dungeon Siege Tale,4.535117,60,2007,Action,NO
+The Golden Compass,70.083519,180,2007,Adventure,NO
+The Christmas Candle,2.209479,44.87003308,2013,Drama,NO
+Charlie and the Chocolate Factory,206.456431,150,2005,Adventure,NO
+Oz the Great and Powerful,234.903076,215,2013,Adventure,NO
+Les Misérables,148.77546,61,2012,Drama,YES
+Shortbus,1.984378,2,2006,Comedy,NO
+Easy Money,0.18887,44.87003308,2010,Action,NO
+Country Strong,20.218921,15,2010,Drama,NO
+The Hunger Games,407.999255,78,2012,Adventure,YES
+The Tourist,67.631157,100,2010,Action,NO
+The Amazing Spider-Man,262.030663,230,2012,Action,YES
+Small Time Crooks,17.07123,18,2000,Comedy,NO
+Ayurveda: Art of Being,0.016892,0.3,2001,Documentary,YES
+The Purge: Anarchy,71.51923,9,2014,Action,NO
+The History Boys,2.706659,2,2006,Comedy,NO
+Saint John of Las Vegas,0.100669,3.8,2009,Comedy,NO
+Bedazzled,37.879996,48,2000,Comedy,NO
+The Animal,55.762229,22,2001,Comedy,NO
+Sabotage,10.499968,35,2014,Action,NO
+The Matador,12.570442,10,2005,Comedy,NO
+Escape from Tomorrow,0.169719,44.87003308,2013,Other,NO
+Living Dark: The Story of Ted the Caver,47.23378622,1.75,2013,Horror,NO
+Brokeback Mountain,83.025853,14,2005,Drama,YES
+Frozen,400.7366,150,2013,Adventure,YES
+Barry Munday,47.23378622,44.87003308,2010,Comedy,NO
+Master and Commander: The Far Side of the World,93.926386,150,2003,Action,YES
+Basic,26.53612,50,2003,Action,NO
+Charlie St. Cloud,31.13695,44,2010,Drama,NO
+Winter's Bone,6.531491,2,2010,Drama,YES
+8 Days,47.23378622,2.5,2014,Drama,NO
+The Divide,0.022,3,2011,Drama,NO
+The Unborn,42.638165,16,2009,Drama,NO
+Mr. Turner,3.9585,8.2,2014,Biography,NO
+The Mudge Boy,47.23378622,0.8,2003,Crime,YES
+The Grand Budapest Hotel,59.073773,25,2014,Adventure,YES
+Drumline,56.398162,20,2002,Comedy,NO
+Certifiably Jonathan,0.007826,1.2,2007,Comedy,NO
+Scoop,10.515579,4,2006,Comedy,NO
+Stop-Loss,10.91175,25,2008,Drama,NO
+The Quiet,0.381186,0.9,2005,Drama,NO
+The Butterfly Effect,0.023947,13,2004,Other,YES
+L!fe Happens,0.020186,0.93,2011,Comedy,NO
+Sky High,63.939454,35,2005,Adventure,NO
+Halloween II,33.386128,15,2009,Horror,NO
+Planet of the Apes,180.01174,100,2001,Action,NO
+Appaloosa,20.207003,44.87003308,2008,Crime,NO
+A Plague So Pleasant,47.23378622,0.0014,2013,Drama,NO
+Morvern Callar,0.267194,44.87003308,2002,Drama,NO
+Harry Potter and the Sorcerer's Stone,317.557891,125,2001,Adventure,YES
+I Love Your Work,0.00258,1.65,2003,Drama,NO
+The Water Diviner,4.19053,22.5,2014,Drama,YES
+Black or White,21.569041,9,2014,Drama,NO
+Paranormal Activity 2,84.749884,3,2010,Horror,NO
+Isn't She Great,2.954405,36,2000,Biography,NO
+The Green Inferno,7.18667,6,2013,Adventure,NO
+The Interview,6.105175,44,2014,Comedy,NO
+Dallas Buyers Club,27.296514,5,2013,Biography,YES
+My Bloody Valentine,51.527787,15,2009,Horror,NO
+Hesher,0.382946,7,2010,Drama,YES
+Wordplay,3.117666,44.87003308,2006,Documentary,YES
+We Own the Night,28.563179,21,2007,Crime,NO
+The Eclipse,0.128937,44.87003308,2009,Drama,NO
+Brothers,28.501651,26,2009,Drama,YES
+Hugo,73.820094,170,2011,Adventure,YES
+Spy Kids 3-D: Game Over,111.760631,38,2003,Action,NO
+Beasts of the Southern Wild,12.784397,1.8,2012,Drama,YES
+Dreamcatcher,33.685268,68,2003,Drama,NO
+An American Haunting,16.298046,14,2005,Horror,NO
+Escape Plan,25.121291,50,2013,Action,NO
+Freakonomics,0.100675,3,2010,Documentary,NO
+The Adventures of Pluto Nash,4.411102,100,2002,Action,NO
+The Little Vampire,13.555988,22,2000,Adventure,NO
+Nightcrawler,32.279955,8.5,2014,Crime,YES
+Bled,47.23378622,0.75,2009,Horror,NO
+Kites,1.602466,600,2010,Action,NO
+High Fidelity,27.277055,20,2000,Comedy,YES
+Wild Target,0.11719,8,2010,Action,NO
+Snow Angels,0.40282,44.87003308,2007,Drama,NO
+Vamps,0.002964,16,2012,Comedy,NO
+Transformers,318.759914,150,2007,Action,YES
+The Nutcracker in 3D,0.190562,90,2010,Action,NO
+Hidden Away,47.23378622,44.87003308,2014,Drama,YES
+Road Trip,68.525609,15.6,2000,Comedy,NO
+Furry Vengeance,17.596256,35,2010,Comedy,NO
+Imagine Me & You,0.67124,7.9,2005,Comedy,NO
+Project X,54.724272,12,2012,Comedy,NO
+Closer,33.987757,27,2004,Drama,YES
+De-Lovely,13.337299,20,2004,Biography,NO
+Killing Them Softly,14.93857,15,2012,Crime,NO
+The Passion of the Christ,0.499263,30,2004,Drama,YES
+The Last King of Scotland,17.605861,6,2006,Biography,YES
+Pain & Gain,49.874933,26,2013,Comedy,NO
+Angel Eyes,24.044532,38,2001,Drama,NO
+License to Wed,43.792641,35,2007,Comedy,NO
+Brigham City,0.798341,1,2001,Crime,YES
+I Hope They Serve Beer in Hell,1.425993,44.87003308,2009,Comedy,NO
+Blood Diamond,57.366262,100,2006,Adventure,YES
+Little Nicholas,47.23378622,44.87003308,2009,Comedy,YES
+Persepolis,4.443403,7.3,2007,Animation,YES
+Bending Steel,47.23378622,0.05,2013,Documentary,YES
+Aberdeen,0.064148,6.5,2000,Drama,YES
+Day One,47.23378622,3.4,2012,Biography,NO
+Rubber,0.098017,0.5,2010,Comedy,NO
+DOA: Dead or Alive,0.480314,21,2006,Action,NO
+Taken,145.000989,25,2008,Action,YES
+Hall Pass,45.045037,36,2011,Comedy,NO
+Spirited Away,10.049886,19,2001,Adventure,YES
+The Mothman Prophecies,35.228696,32,2002,Drama,NO
+Curious George,58.336565,50,2006,Adventure,NO
+Flushed Away,64.459316,149,2006,Adventure,NO
+My Super Ex-Girlfriend,22.526144,30,2006,Comedy,NO
+Juno,143.49284,7.5,2007,Comedy,YES
+Faster,23.225911,24,2010,Action,NO
+Nine Queens,1.221261,1.5,2000,Crime,YES
+Journey to Saturn,47.23378622,44.87003308,2008,Action,NO
+Guess Who,67.962333,35,2005,Comedy,NO
+The Legend of Hercules,18.821279,70,2014,Action,NO
+The Night Listener,7.82582,4,2006,Crime,NO
+Sherlock Holmes,209.019489,90,2009,Action,YES
+Wish I Was Here,3.588432,6,2014,Comedy,NO
+The Assassination of Jesse James by the Coward Robert Ford,3.904982,30,2007,Biography,YES
+Final Destination 3,54.098051,25,2006,Horror,NO
+Impact Point,47.23378622,2.2,2008,Other,NO
+The Sisterhood of the Traveling Pants 2,44.087387,44.87003308,2008,Comedy,NO
+The Mongol King,47.23378622,0.00325,2005,Crime,YES
+If I Stay,50.461335,11,2014,Drama,NO
+Crossroads,37.188667,12,2002,Comedy,NO
+The Secret Life of Bees,37.76635,11,2008,Drama,YES
+The Hills Have Eyes II,20.801344,15,2007,Horror,NO
+The Banger Sisters,30.306281,10,2002,Comedy,NO
+What Women Want,182.805123,70,2000,Comedy,NO
+Carriers,0.09082,44.87003308,2009,Drama,NO
+The Imaginarium of Doctor Parnassus,7.689458,40,2009,Adventure,NO
+Kung Fu Panda,215.395021,130,2008,Action,YES
+Mercy Streets,0.171988,0.6,2000,Action,NO
+Pride & Prejudice,38.372662,28,2005,Drama,YES
+Thor,181.015141,150,2011,Action,YES
+The Lords of Salem,1.163508,2.5,2012,Drama,NO
+Primer,0.42476,0.007,2004,Drama,YES
+Water for Elephants,58.700247,38,2011,Drama,NO
+Open Road,47.23378622,3,2013,Action,NO
+The Savages,6.610326,44.87003308,2007,Comedy,YES
+Burn,0.1113,0.225,2012,Documentary,YES
+Austin Powers in Goldmember,213.079163,63,2002,Action,NO
+Edmond,0.131617,10,2005,Drama,NO
+Half Past Dead,15.361537,13,2002,Action,NO
+Zookeeper,80.360866,80,2011,Comedy,NO
+Yes Man,97.680195,70,2008,Comedy,NO
+Short Cut to Nirvana: Kumbh Mela,0.381225,0.2,2004,Documentary,YES
+Highlander: Endgame,12.80119,15,2000,Action,NO
+Straight A's,47.23378622,2,2013,Comedy,NO
+High Crimes,41.543207,42,2002,Crime,NO
+Philomena,37.707719,12,2013,Biography,YES
+Just Visiting,4.777007,40,2001,Comedy,NO
+Monster,34.468224,4.5,2003,Biography,YES
+Get Low,9.176553,7.5,2009,Drama,YES
+The Guilt Trip,37.101011,40,2012,Comedy,NO
+War,22.466994,25,2007,Action,NO
+Win a Date with Tad Hamilton!,16.964743,24,2004,Comedy,NO
+Everything Must Go,2.71121,5,2010,Comedy,NO
+The Help,169.705587,25,2011,Drama,YES
+Identity Thief,134.455175,35,2013,Comedy,NO
+Olympus Has Fallen,98.895417,70,2013,Action,NO
+Hachi: A Dog's Tale,47.23378622,16,2009,Drama,YES
+Everybody's Fine,8.855646,21,2009,Adventure,YES
+Say It Isn't So,5.516708,25,2001,Comedy,NO
+G.I. Joe: Retaliation,122.512052,130,2013,Action,NO
+Cold Mountain,95.632614,79,2003,Adventure,YES
+The Cry of the Owl,47.23378622,11.5,2009,Drama,NO
+Somewhere,1.768416,7,2010,Comedy,NO
+Ira & Abby,0.220234,3.5,2006,Comedy,NO
+5 Days of War,0.017149,20,2011,Action,NO
+Larry the Cable Guy: Health Inspector,15.655665,4,2006,Comedy,NO
+Fury,85.707116,68,2014,Action,YES
+Blood Done Sign My Name,0.082739,44.87003308,2010,Drama,NO
+Men of Honor,48.814909,32,2000,Biography,YES
+The Last Station,6.615578,13,2009,Biography,YES
+TRON: Legacy,172.051787,170,2010,Action,NO
+A Better Life,1.754319,10,2011,Drama,YES
+The Act of Killing,0.484221,1,2012,Biography,YES
+2 Guns,75.5733,61,2013,Action,NO
+The Island,35.799026,126,2005,Action,NO
+Kill Bill: Vol. 2,66.20792,30,2004,Action,YES
+Miss Congeniality 2: Armed and Fabulous,48.472213,45,2005,Action,NO
+Treasure Planet,38.120554,140,2002,Adventure,YES
+Super Troopers,18.488314,1.2,2001,Comedy,YES
+Big Momma's House,117.559438,30,2000,Action,NO
+Paparazzi,15.712072,20,2004,Action,NO
+Sanctum,23.070045,30,2011,Adventure,NO
+Fun with Dick and Jane,110.332737,100,2005,Comedy,NO
+Grudge Match,29.802761,40,2013,Comedy,NO
+All Good Things,0.578382,44.87003308,2010,Crime,NO
+Trash,0.01023,44.87003308,2014,Adventure,YES
+When the Game Stands Tall,30.127963,15,2014,Drama,NO
+Beauty Shop,36.310118,44.87003308,2005,Comedy,NO
+Once Upon a Time in Queens,47.23378622,1.5,2013,Comedy,NO
+My Sister's Keeper,49.185998,30,2009,Drama,YES
+The Possession,49.122319,14,2012,Horror,NO
+Nim's Island,48.006503,37,2008,Adventure,NO
+Jackass Number Two,72.755517,44.87003308,2006,Action,YES
+Elza,47.23378622,0.9,2011,Drama,NO
+Being Julia,7.739049,18,2004,Comedy,YES
+Royal Kill,47.23378622,0.35,2009,Action,NO
+The Boy in the Striped Pajamas,9.030581,12.5,2008,Drama,YES
+Dil Jo Bhi Kahey...,0.129319,70,2005,Other,NO
+Slackers,4.814244,11,2002,Comedy,NO
+Sabotage,10.499968,35,2014,Action,NO
+Yes,0.396035,1,2004,Drama,NO
+Don McKay,47.23378622,44.87003308,2009,Drama,NO
+Hansel & Gretel: Witch Hunters,55.68207,50,2013,Action,NO
+Valley of the Wolves: Iraq,47.23378622,8.3,2006,Action,NO
+Pacific Rim,101.785482,190,2013,Action,YES
+On the Line,4.356743,16,2001,Comedy,NO
+The Family Stone,6.061759,17,2005,Comedy,NO
+Pay It Forward,33.508922,40,2000,Drama,YES
+Give Me Shelter,47.23378622,0.25,2014,Documentary,YES
+All the Real Girls,0.548712,2.5,2003,Drama,NO
+Jurassic Park III,181.166115,93,2001,Action,NO
+Avatar,760.505847,237,2009,Action,YES
+Glory Road,42.643187,44.87003308,2006,Biography,YES
+Life as a House,15.561627,18,2001,Drama,YES
+Role Models,67.2663,28,2008,Comedy,NO
+A Haunted House,40.041683,2.5,2013,Comedy,NO
+The Day the Earth Stood Still,79.363785,80,2008,Drama,NO
+Now Is Good,47.23378622,44.87003308,2012,Drama,YES
+Honey,30.22264,25,2003,Drama,NO
+Glitter,4.273372,22,2001,Drama,NO
+The Theory of Everything,35.887263,15,2014,Biography,YES
+The Bourne Identity,121.46896,60,2002,Action,YES
+The City of Your Final Destination,47.23378622,8.3,2009,Drama,NO
+Maleficent,241.407328,180,2014,Action,YES
+Paa,0.199228,150,2009,Comedy,YES
+City of Life and Death,0.119922,12,2009,Drama,YES
+The Shipping News,11.405825,35,2001,Drama,NO
+The Hunger Games: Mockingjay - Part 1,337.103873,125,2014,Adventure,NO
+Girls Gone Dead,47.23378622,0.5,2012,Comedy,NO
+Thomas and the Magic Railroad,15.911333,19,2000,Adventure,NO
+I Dreamed of Africa,6.543194,34,2000,Adventure,NO
+Supporting Characters,47.23378622,44.87003308,2012,Comedy,NO
+The Emperor's Club,14.06095,12.5,2002,Drama,NO
+Celeste & Jesse Forever,3.094687,44.87003308,2012,Comedy,NO
+The East,2.268296,6.5,2013,Drama,NO
+Serenity,25.335935,40,2005,Action,YES
+Shade,0.010696,6.8,2003,Crime,NO
+Hollow Man,73.20934,95,2000,Action,NO
+Max Payne,40.687294,35,2008,Action,NO
+Pirates of the Caribbean: On Stranger Tides,241.063875,250,2011,Action,NO
+November,0.191309,0.15,2004,Drama,NO
+I Spit on Your Grave,0.092401,2,2010,Horror,NO
+TRON: Legacy,172.051787,170,2010,Action,NO
+Charlie Wilson's War,66.636385,75,2007,Biography,YES
+Miss Potter,2.975649,30,2006,Biography,YES
+Happily N'Ever After,15.519841,47,2006,Adventure,NO
+30 Nights of Paranormal Activity with the Devil Inside the Girl with the Dragon Tattoo,47.23378622,3,2013,Comedy,NO
+Jesus People,47.23378622,44.87003308,2007,Comedy,NO
+Away We Go,9.430988,17,2009,Comedy,YES
+Osmosis Jones,13.596911,70,2001,Action,NO
+Redbelt,2.344847,7,2008,Drama,NO
+Fantastic Mr. Fox,20.999103,40,2009,Adventure,YES
+The Pursuit of Happyness,162.586036,55,2006,Biography,YES
+Ultraviolet,18.500966,30,2006,Action,NO
+Far from Heaven,15.854988,13.5,2002,Drama,YES
+Under the Same Moon,12.589108,44.87003308,2007,Adventure,YES
+The Invasion,15.071514,80,2007,Other,NO
+Pooh's Heffalump Movie,18.081626,20,2005,Animation,NO
+The Ugly Truth,88.915214,38,2009,Comedy,NO
+Raise Your Voice,10.41198,15,2004,Other,NO
+Darkness Falls,32.131483,11,2003,Horror,NO
+The Namesake,13.569248,44.87003308,2006,Drama,YES
+Sex Drive,8.396942,19,2008,Adventure,NO
+Silmido,47.23378622,8,2003,Action,YES
+The Baader Meinhof Complex,0.47627,20,2008,Action,YES
+Monsters,0.237301,0.5,2010,Drama,NO
+"I, Robot",144.79535,120,2004,Action,YES
+The Matrix Reloaded,281.492479,150,2003,Action,YES
+A Walk Among the Tombstones,25.977365,28,2014,Crime,NO
+The Bounty Hunter,67.061228,40,2010,Action,NO
+Harry Potter and the Chamber of Secrets,261.970615,100,2002,Adventure,YES
+The Work and the Story,47.23378622,0.103,2003,Comedy,NO
+Side Effects,32.15441,30,2013,Crime,YES
+Romance & Cigarettes,0.540085,44.87003308,2005,Comedy,NO
+"Definitely, Maybe",31.97384,44.87003308,2008,Comedy,YES
+Party Monster,0.296665,5,2003,Biography,NO
+Contraband,66.489425,25,2012,Action,NO
+The Canyons,0.049494,0.25,2013,Drama,NO
+A Shine of Rainbows,47.23378622,6,2009,Drama,YES
+Howl's Moving Castle,4.710455,24,2004,Adventure,YES
+Sorority Boys,10.198766,12,2002,Comedy,NO
+One Day,13.766014,15,2011,Drama,YES
+Precious,47.536959,10,2009,Drama,YES
+We Need to Talk About Kevin,1.738692,7,2011,Drama,YES
+Chicken Tikka Masala,47.23378622,1.2,2005,Comedy,NO
+On the Road,0.717753,25,2012,Adventure,NO
+Guiana 1838,0.227241,44.87003308,2004,Drama,YES
+This Is Martin Bonner,47.23378622,0.042,2013,Drama,NO
+Ballistic: Ecks vs. Sever,14.294842,70,2002,Action,NO
+Walk the Line,119.518352,28,2005,Biography,YES
+The Fast and the Furious,144.51231,38,2001,Action,NO
+Igby Goes Down,4.681503,9,2002,Comedy,YES
+The Ten,0.766487,5.25,2007,Comedy,NO
+Unfriended,31.53732,1,2014,Horror,NO
+Never Again,0.295468,0.5,2001,Comedy,NO
+Planet of the Apes,180.01174,100,2001,Action,NO
+Knockaround Guys,11.63242,44.87003308,2001,Crime,NO
+Dreamer: Inspired by a True Story,32.701088,32,2005,Drama,NO
+Return to Never Land,48.423368,20,2002,Adventure,NO
+The Hills Have Eyes,41.777564,15,2006,Horror,NO
+The Last Godfather,0.163591,13.4,2010,Comedy,NO
+Side Effects,32.15441,30,2013,Crime,YES
+Adore,0.317125,16,2013,Drama,NO
+Ida,3.826455,44.87003308,2013,Drama,YES
+A Perfect Getaway,15.48354,14,2009,Adventure,NO
+Shooter,46.975183,61,2007,Action,YES
+The Love Guru,32.178777,62,2008,Comedy,NO
+Shrek the Third,320.706665,160,2007,Adventure,NO
+The Bourne Ultimatum,227.13709,110,2007,Action,YES
+Surrogates,38.542418,80,2009,Action,NO
+Sublime,47.23378622,1.8,2007,Horror,NO
+11:14,47.23378622,6,2003,Comedy,YES
+The Perfect Game,1.089445,12.5,2009,Comedy,YES
+Swelter,47.23378622,8,2014,Action,NO
+Battleship,65.17316,209,2012,Action,NO
+The Brown Bunny,0.365734,10,2003,Drama,NO
+The Cave,14.888028,30,2005,Adventure,NO
+Pathology,0.108662,8,2008,Crime,NO
+White Noise,55.865715,10,2005,Drama,NO
+Made in Dagenham,1.094798,7.2,2010,Biography,YES
+Abduction,28.064226,35,2011,Action,NO
+"A Woman, a Gun and a Noodle Shop",0.190666,44.87003308,2009,Comedy,NO
+Collateral,100.003492,65,2004,Crime,YES
+The Frozen Ground,47.23378622,27.22,2013,Crime,NO
+Original Sin,16.252765,42,2001,Drama,NO
+Hustle & Flow,22.201636,8,2005,Crime,YES
+The Hundred-Foot Journey,54.235441,22,2014,Comedy,YES
+Rugrats Go Wild,39.39975,25,2003,Adventure,NO
+Assault on Precinct 13,19.976073,20,2005,Action,NO
+Jonah Hex,10.539414,47,2010,Action,NO
+Syriana,50.815288,50,2005,Drama,YES
+Weekend,0.469947,0.12,2011,Drama,YES
+The Rundown,47.592825,85,2003,Action,NO
+Solitude,47.23378622,44.87003308,2014,Comedy,NO
+A Man Apart,26.183197,36,2003,Action,NO
+Khiladi 786,0.352684,44.87003308,2012,Action,NO
+Flightplan,89.706988,55,2005,Drama,NO
+Dolphins and Whales 3D: Tribes of the Ocean,7.518876,6,2008,Adventure,NO
+Train,47.23378622,44.87003308,2008,Horror,NO
+Journey 2: The Mysterious Island,103.812241,79,2012,Action,NO
+Forget Me Not,47.23378622,1.3,2009,Horror,NO
+Ca$h,0.046451,7,2010,Comedy,NO
+High School Musical,47.23378622,4.2,2006,Comedy,NO
+Just Go with It,103.028109,80,2011,Comedy,NO
+Dracula 2000,33.000377,28,2000,Action,NO
+Boyhood,25.3592,4,2014,Drama,YES
+Double Take,0.020218,24,2001,Action,NO
+Me and You and Everyone We Know,3.885134,2,2005,Comedy,YES
+The Ghost Writer,15.523168,45,2010,Other,YES
+From Paris with Love,23.324666,52,2010,Action,NO
+Arn: The Knight Templar,47.23378622,25,2007,Action,NO
+The Hunted,34.238611,55,2003,Action,NO
+The Impossible,18.996755,45,2012,Drama,YES
+Sweet November,25.178165,40,2001,Drama,NO
+The Last Song,62.933793,20,2010,Drama,NO
+Mr. Deeds,126.20332,50,2002,Comedy,NO
+Moonlight Mile,6.830957,21,2002,Drama,NO
+An American Girl Holiday,47.23378622,0.2,2004,Drama,YES
+The Bubble,0.155972,1.5,2006,Comedy,YES
+Torque,21.176322,40,2004,Action,NO
+Must Love Dogs,43.894863,30,2005,Comedy,NO
+Bathory: Countess of Blood,47.23378622,44.87003308,2008,Biography,NO
+16 Blocks,36.883539,52,2006,Action,NO
+Feast,47.23378622,3.2,2005,Action,NO
+The Express,9.589875,40,2008,Biography,YES
+Infamous,1.150403,13,2006,Biography,YES
+The Hammer,0.442638,0.85,2007,Comedy,YES
+The Last House on the Left,32.721635,15,2009,Crime,NO
+Hidalgo,67.286731,100,2004,Action,NO
+The Heat,159.578352,43,2013,Action,NO
+Toy Story 3,414.984497,200,2010,Adventure,YES
+Step Up,65.26901,12,2006,Crime,NO
+Children of Men,35.286428,76,2006,Drama,YES
+Meet Dave,11.802056,60,2008,Adventure,NO
+The House of Mirth,3.041803,10,2000,Drama,YES
+Cecil B. DeMented,1.276984,10,2000,Comedy,NO
+Radio,52.277485,35,2003,Biography,NO
+The Mortal Instruments: City of Bones,31.165421,60,2013,Other,NO
+Harsh Times,3.335839,2,2005,Action,YES
+Malibu's Most Wanted,34.308901,16,2003,Comedy,NO
+Remember the Titans,115.648585,30,2000,Biography,YES
+Hardball,40.219708,21,2001,Drama,NO
+Good Deeds,35.010192,44.87003308,2012,Comedy,NO
+Hostel,47.277326,4.8,2005,Horror,NO
+Lord of War,24.127895,50,2005,Crime,YES
+Head of State,37.788228,35.2,2003,Comedy,NO
+Finishing the Game: The Search for a New Bruce Lee,0.05285,0.5,2007,Comedy,NO
+Beyond the Sea,6.144806,23,2004,Biography,NO
+The Tuxedo,50.189179,60,2002,Action,NO
+Meek's Cutoff,0.9776,44.87003308,2010,Drama,NO
+Fur: An Imaginary Portrait of Diane Arbus,0.220914,16.8,2006,Biography,NO
+The Brothers,27.457409,6,2001,Comedy,NO
+Poolhall Junkies,0.562059,4,2002,Drama,YES
+The Last House on the Left,32.721635,15,2009,Crime,NO
+Fireproof,33.451479,0.5,2008,Drama,NO
+Pirates of the Caribbean: The Curse of the Black Pearl,305.388685,140,2003,Action,YES
+Alice in Wonderland,334.185206,200,2010,Adventure,NO
+On the Outs,47.23378622,44.87003308,2004,Drama,NO
+Bandslam,5.205343,20,2009,Comedy,NO
+Ink,47.23378622,44.87003308,2009,Action,YES
+Frequency,44.983704,31,2000,Crime,YES
+Fat Albert,48.114556,26,2004,Comedy,NO
+Ramanujan,47.23378622,44.87003308,2014,Biography,YES
+The Polar Express,0.665426,165,2004,Adventure,NO
+True Grit,171.031347,38,2010,Adventure,YES
+The Call,51.872378,13,2013,Crime,NO
+Sparkle,24.397469,17,2012,Drama,NO
+Sorority Row,11.956207,16,2009,Horror,NO
+Letters to God,2.848578,3.5,2010,Drama,NO
+Funny People,51.81419,75,2009,Comedy,NO
+The Illusionist,39.825798,16,2006,Drama,YES
+Murderball,1.523883,1.750211,2005,Documentary,YES
+40 Days and 40 Nights,37.939782,17,2002,Comedy,NO
+Redemption Road,0.027012,44.87003308,2010,Drama,NO
+Star Wars: Episode III - Revenge of the Sith,380.262555,113,2005,Action,YES
+Munich,47.37909,70,2005,Drama,YES
+The Curse of the Were-Rabbit,56.068547,30,2005,Animation,YES
+Buffalo Soldiers,0.353743,15,2001,Comedy,NO
+Ghosts of Mars,8.434601,28,2001,Action,NO
+Happy Feet,197.992827,100,2006,Animation,NO
+Dragonfly,30.063805,60,2002,Drama,NO
+"Run, Hide, Die",47.23378622,0.05,2012,Horror,NO
+Rent,29.077547,40,2005,Drama,YES
+America's Sweethearts,93.607673,48,2001,Comedy,NO
+I Am Love,5.004648,10,2009,Drama,YES
+Final Fantasy: The Spirits Within,32.13183,137,2001,Action,NO
+The Call of Cthulhu,47.23378622,0.05,2005,Other,YES
+Iron Man,318.29818,140,2008,Action,YES
+The Nativity Story,37.617947,30,2006,Drama,NO
+The Time Traveler's Wife,63.411478,39,2009,Drama,YES
+Zack and Miri Make a Porno,31.452765,24,2008,Comedy,NO
+Diary of a Mad Black Woman,50.382128,5.5,2005,Comedy,NO
+I Am Sam,40.270895,22,2001,Drama,YES
+Saving Silverman,19.351569,22,2001,Comedy,NO
+Harry Potter and the Order of the Phoenix,292.000866,150,2007,Adventure,YES
+The Crazies,39.103378,20,2010,Horror,NO
+The Prestige,53.082743,40,2006,Drama,YES
+Big Trouble,7.262288,40,2002,Comedy,NO
+The Musketeer,27.053815,40,2001,Action,NO
+Red Sky,47.23378622,25,2014,Action,NO
+Crazy/Beautiful,16.929123,14,2001,Drama,NO
+The Perfect Storm,182.618434,140,2000,Action,NO
+Capote,28.74757,7,2005,Biography,YES
+King Kong,218.05126,207,2005,Action,YES
+The Forbidden Kingdom,25.040293,55,2008,Action,NO
+Kung Fu Hustle,17.104669,20,2004,Action,YES
+My Week with Marilyn,14.597405,6.4,2011,Biography,YES
+Erin Brockovich,125.548685,52,2000,Biography,YES
+From Hell,31.598308,35,2001,Horror,NO
+Darling Companion,0.793352,44.87003308,2012,Comedy,NO
+Before Sunset,5.792822,2.7,2004,Drama,YES
+The Great Raid,10.166502,80,2005,Action,NO
+Eastern Promises,17.114882,25,2007,Crime,YES
+Sicko,24.530513,9,2007,Documentary,YES
+Cradle 2 the Grave,34.604054,30,2003,Action,NO
+The Way Way Back,21.501098,5,2013,Comedy,YES
+Real Steel,85.463309,110,2011,Action,YES
+Step Up 3D,42.38552,30,2010,Drama,NO
+Tangled,200.807262,260,2010,Adventure,YES
+The Break-Up,118.683135,52,2006,Comedy,NO
+21 & Over,25.675765,13,2013,Comedy,NO
+Kiss Kiss Bang Bang,4.235837,15,2005,Comedy,YES
+Duplicity,40.55993,60,2009,Comedy,NO
+A Most Violent Year,5.749134,20,2014,Action,YES
+The Grudge 2,39.143839,20,2006,Horror,NO
+Chicago,170.684505,45,2002,Comedy,YES
+State of Play,36.965395,44.87003308,2009,Crime,YES
+Twixt,47.23378622,7,2011,Comedy,NO
+The Place Beyond the Pines,21.383298,15,2012,Crime,YES
+The Triplets of Belleville,7.002255,9.5,2003,Animation,YES
+Before Midnight,8.114507,3,2013,Drama,YES
+The Informers,47.23378622,18,2008,Crime,NO
+The Sisterhood of Night,47.23378622,1,2014,Drama,NO
+Final Destination,53.302314,23,2000,Horror,NO
+Firewall,48.74515,50,2006,Crime,NO
+Joe Somebody,22.770864,38,2001,Comedy,NO
+Jimmy Neutron: Boy Genius,80.920948,30,2001,Action,NO
+Something's Gotta Give,124.59096,80,2003,Comedy,NO
+X-Men Origins: Wolverine,179.883016,150,2009,Action,NO
+Hercules,72.660029,100,2014,Action,NO
+Hanna,40.247512,30,2011,Action,NO
+Mulholland Drive,7.219578,15,2001,Drama,YES
+Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan,128.505958,18,2006,Comedy,YES
+Domino,10.137232,50,2005,Action,NO
+I Want Someone to Eat Cheese With,0.194568,1.5,2006,Comedy,NO
+Thank You for Smoking,24.792061,6.5,2005,Comedy,YES
+Thor: The Dark World,206.360018,170,2013,Action,YES
+The Virginity Hit,0.535249,3.4,2010,Comedy,NO
+King's Ransom,4.006906,15,2005,Comedy,NO
+Superman Returns,200.069408,209,2006,Action,NO
+The Deported,47.23378622,3,2009,Comedy,NO
+Kissing Jessica Stein,7.02294,1,2001,Comedy,NO
+Red Riding Hood,37.652565,42,2011,Other,NO
+Black Rock,47.23378622,44.87003308,2012,Horror,NO
+Ponyo,15.081783,34,2008,Adventure,YES
+The Beach,39.778599,50,2000,Adventure,NO
+A Fine Step,47.23378622,1,2014,Drama,NO
+The Chorus,3.629758,5.5,2004,Drama,YES
+The Yards,0.88271,24,2000,Crime,NO
+50/50,34.963967,8,2011,Comedy,YES
+Where the Truth Lies,0.871527,25,2005,Crime,NO
+Echo Dr.,47.23378622,0.1,2013,Action,NO
+Melancholia,3.02987,7.4,2011,Drama,YES
+Watchmen,107.503316,130,2009,Action,YES
+Christmas Mail,47.23378622,2.5,2010,Comedy,NO
+3,0.059774,44.87003308,2010,Comedy,NO
+The Loved Ones,47.23378622,44.87003308,2009,Horror,NO
+EuroTrip,17.718223,25,2004,Comedy,NO
+Timecrimes,0.038108,2.6,2007,Horror,YES
+The Tailor of Panama,13.491653,18,2001,Drama,NO
+Salvation Boulevard,0.027445,9,2011,Action,NO
+Another Year,3.205244,10,2010,Comedy,YES
+Riding Giants,2.276368,44.87003308,2004,Documentary,YES
+The Women,26.896744,16.5,2008,Comedy,NO
+Drinking Buddies,0.342936,44.87003308,2013,Comedy,NO
+Shall We Dance,57.887882,50,2004,Comedy,NO
+Green Lantern,116.593191,200,2011,Action,NO
+The Exorcism of Emily Rose,75.072454,20,2005,Drama,NO
+Casino Jack,1.039869,15,2010,Biography,NO
+ATL,21.160089,44.87003308,2006,Comedy,NO
+Selma,52.066,20,2014,Biography,YES
+Escape from Planet Earth,57.011847,40,2013,Adventure,NO
+Thirteen Days,34.566746,80,2000,Drama,YES
+For Your Consideration,5.542025,12,2006,Comedy,NO
+Cloverfield,80.034302,25,2008,Action,YES
+Playing for Keeps,13.101142,35,2012,Comedy,NO
+Passchendaele,47.23378622,20,2008,Drama,NO
+In Time,37.553932,40,2011,Action,NO
+Things We Lost in the Fire,2.849142,16,2007,Drama,YES
+Skyfall,304.360277,200,2012,Action,YES
+The Young Victoria,10.991381,35,2009,Biography,YES
+Boys and Girls,20.627372,16,2000,Comedy,NO
+Crazy Heart,39.462438,7,2009,Drama,YES
+Summer Storm,0.095016,2.7,2004,Comedy,YES
+Lone Survivor,125.069696,40,2013,Action,YES
+Scary Movie 5,32.014289,20,2013,Comedy,NO
+Rang De Basanti,2.197331,44.87003308,2006,Comedy,YES
+Megamind,148.337537,130,2010,Action,YES
+Keeping the Faith,37.036404,30,2000,Comedy,NO
+Apocalypto,50.859889,40,2006,Action,YES
+Femme Fatale,6.592103,35,2002,Crime,NO
+9,31.743332,30,2009,Action,YES
+2012,166.112167,200,2009,Action,NO
+Hollywood Homicide,30.013346,75,2003,Action,NO
+Welcome to Mooseport,14.469428,26,2004,Comedy,NO
+Wrath of the Titans,83.640426,150,2012,Action,NO
+Thunder and the House of Magic,0.004091,34,2013,Adventure,NO
+George Washington,0.241816,0.042,2000,Drama,YES
+Milk,31.838002,20,2008,Biography,YES
+Carrie,35.266619,30,2013,Drama,NO
+Spider-Man 3,336.530303,258,2007,Action,NO
+How to Lose Friends & Alienate People,2.775593,27,2008,Comedy,NO
+The Wendell Baker Story,0.127144,8,2005,Comedy,NO
+Hellboy,59.035104,66,2004,Action,NO
+"Pink Ribbons, Inc.",0.024784,1.2,2011,Documentary,YES
+Bon voyage,2.353728,20,2003,Comedy,NO
+Chasing Papi,6.126237,44.87003308,2003,Comedy,NO
+The Adjustment Bureau,62.453315,50.2,2011,Other,YES
+Elysium,93.050117,115,2013,Action,NO
+End of the Spear,11.703287,10,2005,Adventure,YES
+Drive Hard,47.23378622,12,2014,Action,NO
+Timber Falls,47.23378622,2.6,2007,Horror,NO
+Idiocracy,0.438653,44.87003308,2006,Adventure,NO
+The Gambler,33.631221,25,2014,Crime,NO
+The Hole,47.23378622,12,2009,Adventure,NO
+Shine a Light,5.355376,44.87003308,2008,Biography,YES
+Legend of Kung Fu Rabbit,47.23378622,44.87003308,2011,Action,NO
+How to Deal,14.108518,16,2003,Comedy,NO
+The Princess Diaries,108.244774,37,2001,Comedy,NO
+Bullet to the Head,9.483821,55,2012,Action,NO
+The Kingdom,47.45645,70,2007,Action,YES
+Snow White: A Deadly Summer,47.23378622,1,2012,Horror,NO
+Trade,0.214202,12,2007,Crime,YES
+Swing Vote,16.28436,21,2008,Comedy,NO
+Hard Candy,1.007962,0.95,2005,Crime,YES
+It's a Wonderful Afterlife,47.23378622,10,2010,Comedy,NO
+Open Water,30.500882,0.5,2003,Adventure,NO
+The Fast and the Furious: Tokyo Drift,62.494975,85,2006,Action,NO
+Unknown,61.094903,30,2011,Action,NO
+"Monsters, Inc.",289.907418,115,2001,Adventure,YES
+Finding Nemo,380.83887,94,2003,Adventure,YES
+The Adventures of Sharkboy and Lavagirl 3-D,39.177541,50,2005,Action,NO
+Soul Kitchen,0.274385,4,2009,Comedy,YES
+The Hours,41.59783,25,2002,Drama,YES
+A Separation,7.098492,0.5,2011,Drama,YES
+Tiger Orange,47.23378622,0.1,2014,Drama,NO
+Smokin' Aces,35.635046,17,2006,Action,NO
+Alfie,13.395939,60,2004,Comedy,NO
+Duma,0.860002,12,2005,Adventure,YES
+The Mummy: Tomb of the Dragon Emperor,102.176165,145,2008,Action,NO
+Defendor,0.037606,3.5,2009,Comedy,NO
+Supercross,3.101301,44.87003308,2005,Action,NO
+Yogi Bear,100.169068,80,2010,Adventure,NO
+Phone Booth,46.563158,13,2002,Crime,YES
+Premonition,47.852604,20,2007,Drama,NO
+Daybreakers,29.975979,20,2009,Action,NO
+The Janky Promoters,47.23378622,44.87003308,2009,Comedy,NO
+The Book Thief,21.483154,19,2013,Drama,YES
+Steppin: The Movie,47.23378622,1,2009,Comedy,NO
+London,0.012667,0.014,2005,Drama,NO
+Agora,0.61784,70,2009,Adventure,YES
+Donnie Darko,0.727883,4.5,2001,Drama,YES
+In Bruges,7.75713,15,2008,Comedy,YES
+Joe,0.371897,4,2013,Drama,NO
+The Last Exorcism,40.990055,1.8,2010,Drama,NO
+Beverly Hills Chihuahua,94.497271,20,2008,Adventure,NO
+Dead Like Me: Life After Death,47.23378622,5,2009,Comedy,NO
+BloodRayne,1.55,25,2005,Action,NO
+Three Kingdoms: Resurrection of the Dragon,47.23378622,25,2008,Action,NO
+Brother,0.44775,10,2000,Crime,YES
+The Upside of Anger,18.761993,9,2005,Comedy,NO
+Green Street 3: Never Back Down,47.23378622,44.87003308,2013,Action,NO
+Doubt,33.422556,20,2008,Drama,YES
+Tucker and Dale vs Evil,0.223615,44.87003308,2010,Comedy,YES
+Brighton Rock,47.23378622,12,2010,Crime,NO
+Racing Stripes,49.186871,44.87003308,2005,Adventure,NO
+Saw IV,63.270259,10,2007,Horror,NO
+Blindness,3.073392,25,2008,Drama,NO
+The Legend of Suriyothai,0.454255,400,2001,Action,NO
+Bon Cop Bad Cop,47.23378622,8,2006,Action,YES
+Dysfunctional Friends,47.23378622,1.8,2012,Comedy,NO
+Texas Chainsaw 3D,34.334256,11,2013,Horror,NO
+Unsullied,47.23378622,1.5,2014,Action,NO
+The Broken Hearts Club: A Romantic Comedy,1.744858,1,2000,Comedy,YES
+The Salton Sea,0.676698,18,2002,Crime,YES
+12 Years a Slave,56.66787,20,2013,Biography,YES
+Good Luck Chuck,35.000629,25,2007,Comedy,NO
+Megiddo: The Omega Code 2,5.974653,22,2001,Action,NO
+Star Wars: Episode II - Attack of the Clones,310.675583,115,2002,Action,NO
+Safe,17.120019,30,2012,Action,NO
+Easy A,58.401464,8,2010,Comedy,YES
+Iron Man 3,408.992272,200,2013,Action,YES
+Abraham Lincoln: Vampire Hunter,37.516013,69,2012,Action,NO
+George and the Dragon,47.23378622,32,2004,Action,NO
+Resident Evil: Extinction,50.648679,45,2007,Action,NO
+Harold & Kumar Go to White Castle,18.225165,9,2004,Adventure,YES
+Dark Shadows,79.711678,100,2012,Comedy,NO
+The Libertine,4.829497,44.87003308,2004,Drama,NO
+The Ultimate Gift,3.420871,44.87003308,2006,Drama,YES
+Sunday School Musical,47.23378622,44.87003308,2008,Drama,NO
+The Legend of Bagger Vance,30.695227,60,2000,Drama,NO
+Insomnia,67.263182,46,2002,Drama,YES
+Grindhouse,25.031037,53,2007,Action,YES
+The Skulls,35.00718,15,2000,Action,NO
+The Eye,31.397498,12,2008,Horror,NO
+Swordfish,69.772969,80,2001,Action,NO
+Of Horses and Men,0.011835,10,2013,Comedy,NO
+Kinsey,10.214647,11,2004,Biography,YES
+The Transporter,25.296447,21,2002,Action,NO
+Superbabies: Baby Geniuses 2,9.109322,20,2004,Comedy,NO
+Undercover Brother,38.230435,25,2002,Action,NO
+Jack Reacher,80.033643,60,2012,Action,YES
+My Soul to Take,14.63749,25,2010,Horror,NO
+Gran Torino,148.085755,33,2008,Drama,YES
+Casino Royale,167.007184,150,2006,Action,YES
+"Buen Día, Ramón",0.100412,4,2013,Drama,YES
+Top Five,25.277561,12,2014,Comedy,NO
+A Mighty Wind,17.508936,44.87003308,2003,Comedy,YES
+City by the Sea,22.433915,60,2002,Crime,NO
+September Dawn,1.066555,11,2007,Drama,NO
+After,47.23378622,0.65,2012,Other,NO
+Resident Evil: Apocalypse,50.740078,45,2004,Action,NO
+Sunshine Cleaning,12.055108,8,2008,Comedy,NO
+Just My Luck,17.324744,28,2006,Comedy,NO
+The Dark Knight Rises,448.130642,250,2012,Action,YES
+You Don't Mess with the Zohan,100.018837,90,2008,Action,NO
+Kevin Hart: Laugh at My Pain,7.705974,44.87003308,2011,Comedy,YES
+Woman on Top,5.01845,8,2000,Comedy,NO
+Water & Power,0.079043,44.87003308,2013,Crime,NO
+Diary of a Wimpy Kid: Rodrick Rules,52.691009,21,2011,Comedy,NO
+Down in the Valley,0.568695,8,2005,Drama,NO
+Fright Night,18.298649,30,2011,Comedy,NO
+A Walk to Remember,41.227069,11,2002,Drama,YES
+3:10 to Yuma,53.574088,55,2007,Adventure,YES
+Dawn of the Crescent Moon,47.23378622,0.075,2014,Drama,NO
+Screwed,6.98268,10,2000,Comedy,NO
+Pineapple Express,87.34138,27,2008,Action,YES
+The Reef,47.23378622,44.87003308,2010,Horror,NO
+Summer Catch,19.693891,34,2001,Comedy,NO
+Lage Raho Munna Bhai,47.23378622,120,2006,Comedy,YES
+The Dark Hours,47.23378622,0.5,2005,Horror,NO
+Kick-Ass 2,28.751715,28,2013,Action,NO
+The Motel,0.047111,44.87003308,2005,Comedy,NO
+Out of Time,40.905277,50,2003,Crime,NO
+Barney's Version,7.501404,44.87003308,2010,Comedy,YES
+Independence Daysaster,47.23378622,1.8,2013,Action,NO
+Sinister,48.05694,3,2012,Horror,NO
+The Joneses,1.474508,5,2009,Comedy,NO
+Stolen,0.183125,35,2012,Action,NO
+Black Book,4.398392,21,2006,Drama,YES
+To Rome with Love,16.684352,17,2012,Comedy,NO
+Lovely & Amazing,4.186931,0.25,2001,Comedy,NO
+Butterfly Girl,47.23378622,0.18,2014,Documentary,YES
+The Christmas Bunny,47.23378622,0.25,2010,Drama,NO
+The Princess Diaries 2: Royal Engagement,95.149435,40,2004,Comedy,NO
+Rabbit-Proof Fence,6.165429,6,2002,Adventure,YES
+The Rocket: The Legend of Rocket Richard,47.23378622,8,2005,Biography,YES
+Bless the Child,29.374178,40,2000,Crime,NO
+Loving Annabelle,47.23378622,1,2006,Drama,NO
+I'm Not There.,4.001121,20,2007,Biography,YES
+The Singles Ward,1.250798,0.5,2002,Comedy,NO
+Valley of the Heart's Delight,0.118666,2.5,2006,Drama,NO
+Winged Migration,10.762178,160,2001,Documentary,YES
+Black Swan,106.952327,13,2010,Drama,YES
+Elf,173.381405,33,2003,Comedy,NO
+The Devil's Tomb,47.23378622,10,2009,Action,NO
+Monte Carlo,23.179303,20,2011,Adventure,NO
+The Open Road,0.019348,10,2009,Comedy,NO
+Black Water Transit,47.23378622,23,2009,Crime,YES
+North Country,18.324242,35,2005,Drama,YES
+Big Fish,66.257002,70,2003,Adventure,YES
+Whiplash,13.092,3.3,2014,Drama,YES
+Thirteen,4.59968,1.5,2003,Drama,NO
+This Is It,71.844424,60,2009,Documentary,YES
+Bronson,0.104792,44.87003308,2008,Action,YES
+Savage Grace,0.434417,4.6,2007,Drama,NO
+Eight Below,81.593527,40,2006,Adventure,YES
+Tiny Furniture,0.389804,0.065,2010,Comedy,NO
+The Nut Job,64.23877,42,2014,Adventure,NO
+U-571,77.08603,62,2000,Action,NO
+Be Kind Rewind,11.169531,20,2008,Comedy,NO
+American Psycho,15.047419,7,2000,Crime,YES
+This Means War,54.758461,65,2012,Action,NO
+Bait,47.23378622,30,2012,Action,NO
+Harry Potter and the Deathly Hallows: Part I,47.23378622,44.87003308,2010,Other,NO
+A Serious Man,9.190525,7,2009,Comedy,YES
+Pieces of April,2.360184,0.3,2003,Comedy,YES
+The Benchwarmers,57.651794,33,2006,Comedy,NO
+Napoleon Dynamite,44.540956,0.4,2004,Comedy,NO
+What Lies Beneath,155.370362,100,2000,Drama,NO
+The Image Revolution,47.23378622,0.05,2014,Biography,YES
+Animals,47.23378622,44.87003308,2014,Drama,NO
+A Lonely Place to Die,47.23378622,4,2011,Action,NO
+Moms' Night Out,10.429707,5,2014,Comedy,NO
+X-Men: First Class,146.405371,160,2011,Action,YES
+A Haunted House 2,17.314483,4,2014,Comedy,NO
+What's Your Number?,13.987482,20,2011,Comedy,NO
+Reno 911!: Miami,20.339754,10,2007,Comedy,NO
+"Legally Blonde 2: Red, White & Blonde",89.808372,45,2003,Comedy,NO
+Madagascar: Escape 2 Africa,179.982968,150,2008,Action,NO
+The Pink Panther,82.226474,65,2006,Adventure,NO
+Black Snake Moan,9.396487,15,2006,Drama,YES
+Trust the Man,1.530535,9,2005,Comedy,NO
+Warm Bodies,66.359959,35,2013,Comedy,NO
+The Perfect Man,16.247775,25,2005,Comedy,NO
+Dredd,13.401683,35,2012,Action,YES
+Seed of Chucky,17.01619,12,2004,Comedy,NO
+Spanglish,42.044321,80,2004,Comedy,NO
+In Good Company,45.489752,26,2004,Comedy,NO
+Narc,10.460089,7.5,2002,Crime,YES
+Around the World in 80 Days,24.004159,110,2004,Action,NO
+The FP,0.040557,0.06,2011,Comedy,NO
+The Village,114.195633,60,2004,Drama,NO
+Hollywood Ending,4.839383,16,2002,Comedy,NO
+Hairspray,118.823091,75,2007,Comedy,NO
+Youth in Revolt,15.281286,18,2009,Comedy,NO
+The Girl on the Train,0.002874,44.87003308,2009,Drama,NO
+Just Wright,21.520719,44.87003308,2010,Comedy,NO
+Traffic,124.107476,48,2000,Crime,YES
+Book of Shadows: Blair Witch 2,26.421314,15,2000,Adventure,NO
+The Singing Detective,0.336456,8,2003,Comedy,NO
+The Flintstones in Viva Rock Vegas,35.231365,60,2000,Comedy,NO
+The Greatest Game Ever Played,15.331289,44.87003308,2005,Drama,YES
+Session 9,0.373967,1.5,2001,Horror,NO
+The Fountain,10.139254,35,2006,Drama,YES
+Jindabyne,0.399879,15,2006,Crime,NO
+World's Greatest Dad,0.22121,44.87003308,2009,Comedy,NO
+Bedtime Stories,109.993847,80,2008,Comedy,NO
+Madea's Family Reunion,63.231524,6,2006,Comedy,NO
+The Hoax,7.156933,25,2006,Comedy,NO
+Barbecue,47.23378622,44.87003308,2014,Comedy,NO
+Rugrats in Paris: The Movie,76.501438,30,2000,Adventure,NO
+Asterix at the Olympic Games,47.23378622,78,2008,Adventure,NO
+The Artist,44.667095,15,2011,Comedy,YES
+Across the Universe,24.343673,45,2007,Drama,YES
+Bottle Shock,4.040588,5,2008,Comedy,NO
+Burlesque,39.440655,55,2010,Drama,NO
+House of Sand,47.23378622,8,2005,Drama,YES
+Hitman,39.687528,24,2007,Action,NO
+The Salon,0.092362,1.5,2005,Comedy,NO
+She's the Man,33.68763,20,2006,Comedy,NO
+The Ruins,17.427926,8,2008,Horror,NO
+The Last Airbender,131.564731,150,2010,Action,NO
+Harry Potter and the Prisoner of Azkaban,249.358727,130,2004,Adventure,YES
+Colombiana,36.665854,40,2011,Action,NO
+Dredd,13.401683,35,2012,Action,YES
+Drive Angry,10.706786,50,2011,Action,NO
+Return to Me,32.662299,24,2000,Comedy,NO
+Shrek 2,436.471036,150,2004,Adventure,YES
+Romeo Must Die,55.973336,25,2000,Action,NO
+Tower Heist,78.009155,75,2011,Action,NO
+Garden State,26.781723,2.5,2004,Comedy,YES
+When a Stranger Calls,47.860214,15,2006,Horror,NO
+The Pledge,19.71993,45,2001,Crime,NO
+Hard to Be a God,47.23378622,7,2013,Drama,NO
+Vanilla Sky,100.614858,68,2001,Other,NO
+Annie,85.911262,65,2014,Comedy,NO
+The Game of Their Lives,0.375474,20,2005,Drama,NO
+Bandits,41.523271,80,2001,Comedy,NO
+The Four Feathers,18.306166,35,2002,Adventure,NO
+Jumping the Broom,37.295394,6.6,2011,Comedy,NO
+The Wash,10.097096,4,2001,Comedy,NO
+The Grey,51.533608,25,2011,Action,NO
+Brüno,59.99276,42,2009,Comedy,NO
+A Cinderella Story,51.43116,20,2004,Comedy,NO
+The Marine,18.843314,20,2006,Action,NO
+Bad Santa,60.057639,18,2003,Comedy,YES
+Inescapable,0.004063,4,2012,Drama,NO
+Beyond the Lights,14.61284,7,2014,Drama,NO
+Finding Neverland,51.676606,25,2004,Biography,YES
+The Incredible Burt Wonderstone,22.525921,30,2013,Comedy,NO
+Flicka,20.998709,15,2006,Adventure,NO
+Crossroads,37.188667,12,2002,Comedy,NO
+Tadpole,2.882062,0.15,2000,Comedy,NO
+The Naked Ape,47.23378622,44.87003308,2006,Comedy,NO
+The Watcher,28.92772,33,2000,Crime,NO
+Troy,133.228348,175,2004,Adventure,YES
+New in Town,16.699684,8,2009,Comedy,NO
+ParaNorman,55.994557,60,2012,Adventure,YES
+Non-Stop,91.4394,50,2014,Action,YES
+1408,71.975611,25,2007,Other,NO
+Center Stage,17.17487,18,2000,Drama,NO
+Kangaroo Jack,66.734992,60,2003,Action,NO
+The Weather Man,12.469811,22,2005,Comedy,NO
+My Dog Tulip,0.246574,44.87003308,2009,Animation,NO
+Rat Race,56.607223,48,2001,Adventure,NO
+The Mighty Macs,1.889522,7,2009,Drama,NO
+Jonah: A VeggieTales Movie,25.571351,14,2002,Adventure,NO
+Righteous Kill,40.076438,60,2008,Action,NO
+Cry_Wolf,10.042266,1,2005,Drama,NO
+A Thousand Words,18.438149,40,2012,Comedy,NO
+Good Boy!,37.56623,17,2003,Comedy,NO
+The Tempest,0.263365,20,2010,Comedy,NO
+After Earth,60.522097,130,2013,Action,NO
+Agent Cody Banks,47.285499,26,2003,Action,NO
+Black November,47.23378622,7.5,2012,Action,NO
+A Good Day to Die Hard,67.344392,92,2013,Action,NO
+August,47.23378622,44.87003308,2011,Drama,NO
+The Cookout,11.540112,44.87003308,2004,Comedy,NO
+Year One,43.337279,60,2009,Adventure,NO
+The Order,7.659747,38,2003,Action,NO
+How to Train Your Dragon 2,176.997107,145,2014,Action,YES
+The Taking of Pelham 1 2 3,65.452312,100,2009,Action,NO
+Aloft,0.052961,8,2014,Drama,NO
+Glee: The 3D Concert Movie,11.860839,9,2011,Documentary,NO
+Confessions of a Teenage Drama Queen,29.302097,15,2004,Comedy,NO
+Oldboy,2.18129,3,2003,Drama,YES
+Source Code,54.696902,32,2011,Other,YES
+In the Cut,4.717455,12,2003,Other,NO
+The Bucket List,93.452056,45,2007,Adventure,YES
+Stan Helsing,47.23378622,44.87003308,2009,Comedy,NO
+Brave New Girl,47.23378622,44.87003308,2004,Drama,NO
+Marci X,1.646664,20,2003,Comedy,NO
+An Unfinished Life,8.535575,30,2005,Drama,YES
+Arthur Christmas,46.440491,100,2011,Adventure,YES
+Grace of Monaco,47.23378622,30,2014,Biography,NO
+Piranha 3D,25.003072,24,2010,Comedy,NO
+Hancock,227.946274,150,2008,Action,NO
+You Can Count on Me,9.180275,1.2,2000,Drama,YES
+House of D,0.371081,6,2004,Comedy,YES
+The Brass Teapot,0.006643,0.9,2012,Comedy,NO
+Salt,118.311368,110,2010,Action,NO
+The Sleepwalker,47.23378622,1.1,2014,Drama,NO
+Hitch,177.575142,70,2005,Comedy,NO
+And So It Goes,15.155772,18,2014,Comedy,NO
+The Soloist,31.670931,60,2009,Biography,NO
+Bright Star,4.440055,8.5,2009,Biography,YES
+Death to Smoochy,8.355815,55,2002,Comedy,NO
+Death Sentence,9.525276,20,2007,Action,NO
+Valkyrie,83.07747,75,2008,Drama,YES
+Changeling,35.707327,55,2008,Crime,YES
+Ghost Rider: Spirit of Vengeance,51.774002,57,2011,Action,NO
+Panic Room,95.308367,48,2002,Crime,NO
+Star Trek Into Darkness,228.756232,190,2013,Action,YES
+Pride and Glory,15.709385,30,2008,Crime,NO
+Lottery Ticket,24.708699,44.87003308,2010,Comedy,NO
+Saw 3D: The Final Chapter,45.670855,20,2010,Horror,NO
+The Judge,47.105085,50,2014,Crime,YES
+The Lego Movie,257.756197,60,2014,Action,YES
