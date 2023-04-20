@@ -1,0 +1,463 @@
+---
+title: "Data Modeling"
+output:
+  html_document:
+    df_print: paged
+---
+\vspace{0.25in}
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(caret)
+library(tree)
+library(class)
+set.seed(1)
+```
+
+## Problem Overview
+
+
+The goal is to get more hands-on practice with data cleaning and feature engineering, experience with classification trees and kNNs, and understanding of overfitting. You will:
+
+1.	Clean and create additional features in the Airbnb dataset (which you will use for your project).
+2.	Develop logistic regression, classification tree, and kNN models.
+3.	Construct fitting curves.
+4.	Select the model with the best performance.
+
+
+```{r loading}
+airbnb <- read_csv("airbnb_hw2.csv")  #read the dataset in R
+names(airbnb)                       #variables used in dataset
+
+```
+
+
+**The mean number of people that can be accommodated in a listing in this dataset is 3.522893.**
+
+```{r code0}
+accommodates_mean <- airbnb %>%
+  summarise(mean_accommodates = mean(accommodates))
+```
+
+## 1: EDA and Data Cleaning
+
+- For cancellation_policy, group "strict" and "super_strict_30" into "strict"
+- Convert cleaning_fee and price into numbers
+- Replace NAs in cleaning_fee and price with 0
+- Replace NAs in other numerical variables with their mean
+- Create the following new features:
+  - price_per_person is the nightly price per accommodates 
+  - has_cleaning_fee is YES if there is a cleaning fee, and NO otherwise
+  - bed_category is "bed" if the bed_type is Real Bed and "other" otherwise
+  - property_category has the following values:
+    - apartment if property_type is Apartment, Serviced apartment, Loft.
+    - hotel if property_type is Bed & Breakfast, Boutique hotel, Hostel.
+    - condo if property_type is Townhouse, Condominium.
+    - house if property_type is Bungalow, House.
+    - other, otherwise
+    
+    make sure to convert property_category to a factor!
+    
+  - ppp_ind is 1 if the price_per_person is greater than the median for the property_category, and 0 otherwise
+
+Make sure these variables are factors:
+  - property_category
+  - bed_category
+  - cancellation_policy
+  - room_type
+  - ppp_ind
+
+
+```{r code1a}
+
+# for cancellation_policy, grouping "strict" and "super_strict_30" into "strict"
+airbnb$cancellation_policy[airbnb$cancellation_policy == "super_strict_30"] <- "strict"
+
+# convert cleaning_fee and price into numbers
+airbnb$cleaning_fee<-parse_number(airbnb$cleaning_fee)
+airbnb$price<-parse_number(airbnb$price)
+
+# replace NAs in cleaning_fee and price with 0
+airbnb$cleaning_fee[is.na(airbnb$cleaning_fee)] <- 0
+airbnb$price[is.na(airbnb$price)] <- 0
+
+# replace NAs in other numerical variables with their mean
+airbnb$bedrooms[is.na(airbnb$bedrooms)] <- mean(airbnb$bedrooms, na.rm = TRUE)
+airbnb$beds[is.na(airbnb$beds)] <- mean(airbnb$beds, na.rm = TRUE)
+airbnb$host_total_listings_count[is.na(airbnb$host_total_listings_count)] <- mean(airbnb$host_total_listings_count, na.rm = TRUE)
+
+# create new variables
+airbnb <- mutate(airbnb, 
+       price_per_person = price / accommodates,
+       has_cleaning_fee = ifelse(cleaning_fee > 0, "YES", "NO"),
+       bed_category = ifelse(bed_type == "Real Bed", "bed", "other"),
+       property_category = case_when(
+         property_type %in% c("Apartment","Serviced apartment","Loft") ~ "apartment",
+         property_type %in% c("Bed & Breakfast","Boutique hotel","Hostel") ~ "hotel",
+         property_type %in% c("Townhouse","Condominium") ~ "condo",
+         property_type %in% c("Bungalow","House") ~ "house",
+         TRUE ~ "other"))
+
+# convert into a factor
+airbnb$property_category = as.factor(airbnb$property_category) 
+
+# create variable ppp_ind to indicate if per person price is greater than median of that property category
+airbnb<- airbnb %>%
+      group_by(property_category) %>%  
+      mutate(median_category = median(price_per_person, na.rm = TRUE),  #median value for each category
+      ppp_ind = ifelse(price_per_person > median_category, 1,0))  
+
+# convert character variables
+airbnb$property_category <- as.factor(airbnb$property_category)   #property category is converted
+airbnb$bed_category <- as.factor(airbnb$bed_category) #bed category is converted
+airbnb$cancellation_policy <- as.factor(airbnb$cancellation_policy) #cancellation policy is converted
+airbnb$room_type <- as.factor(airbnb$room_type) #room type is converted
+airbnb$ppp_ind <- as.factor(airbnb$ppp_ind) #ppp ind is converted
+
+# verify if conversion is successful for above variables
+summary(airbnb)
+
+```
+
+- Replace NAs in bathrooms with the median value
+- Replace NAs in host_is_superhost with FALSE
+- Create a new (factor) variable called "charges_for_extra" which has the value "YES" if extra_people > 0 and "NO" if extra_people is 0 or NA
+- Create a new (factor) variable called "host_acceptance" from host_acceptance_rate with the values "ALL" if host_acceptance_rate = 100%, "SOME" if host_acceptance_rate < 100%, and "MISSING" if it's NA.
+- Similarly, create a new (factor) variable called "host_response" with the values "ALL" if host_response_rate = 100%, "SOME" if host_response_rate < 100%, and "MISSING" if it's NA.
+- Create a new factor variable called "has_min_nights" which is "YES" if minimum_nights > 1, and "NO" otherwise
+- Replace market with "OTHER" if there are under 300 instances in that market. Convert market to a factor.
+- Make sure to convert high_booking_rate to a factor!
+
+
+```{r code1b}
+
+# replace NAs in bathrooms with the median value
+airbnb$bathrooms[is.na(airbnb$bathrooms)] <- median(airbnb$bathrooms, na.rm = TRUE)
+
+# replace NAs in host_is_superhost with FALSE
+airbnb$host_is_superhost[is.na(airbnb$host_is_superhost)] <- FALSE
+
+# convert extra_people into numbers
+airbnb$extra_people<-parse_number(airbnb$extra_people)
+
+# create new variables
+airbnb <- mutate(airbnb, 
+       charges_for_extra = as.factor(ifelse(extra_people > 0, "YES", "NO")),
+       host_acceptance = as.factor(ifelse(is.na(host_acceptance_rate), "MISSING", ifelse(host_acceptance_rate == "100%", "ALL", "SOME"))),
+       host_response = as.factor(ifelse(is.na(host_response_rate), "MISSING", ifelse(host_response_rate == "100%", "ALL", "SOME"))),
+       has_min_nights = as.factor(ifelse(minimum_nights > 1, "YES", "NO"))
+       )
+
+# count the number of instances in each market
+market_counts <- table(airbnb$market)
+
+# identify markets with under 300 instances
+under_300_markets <- names(market_counts[market_counts < 300])
+
+# replace under 300 markets with "OTHER"
+airbnb$market[airbnb$market %in% under_300_markets] <- "OTHER"
+
+# replace NAs in market
+airbnb$market[is.na(airbnb$market)] <- "OTHER"
+
+# convert market to a factor variable
+airbnb$market <- as.factor(airbnb$market)
+
+# convert high_booking_rate to a factor
+airbnb$high_booking_rate = as.factor(airbnb$high_booking_rate)
+
+# view the variables
+summary(airbnb)
+
+```
+
+## 2: Modeling Setup
+
+Select the variables listed below - these will be the features used in our models (plus high_booking_rate, which is the target variable)
+
+- accommodates
+- bedrooms
+- beds
+- cancellation_policy
+- has_cleaning_fee
+- host_total_listings_count
+- price
+- ppp_ind
+- property_category
+- bed_category
+- bathrooms
+- charges_for_extra
+- host_acceptance
+- host_response
+- has_min_nights
+- market
+- host_is_superhost
+- high_booking_rate
+
+
+**There are 30 dummy variables in the resulting data frame** 
+
+```{r code 2a}
+
+# select the variables
+columns <- c("accommodates","bedrooms","beds","cancellation_policy","has_cleaning_fee","host_total_listings_count","price","ppp_ind","property_category","bed_category","bathrooms","charges_for_extra","host_acceptance","host_response","has_min_nights","market","host_is_superhost","high_booking_rate")
+
+# create the dataframe with the above variables
+airbnb_df <- airbnb[columns]
+
+# learn the various dummy variable values
+dummy <- dummyVars(~. , data=airbnb_df, fullRank = TRUE)
+
+# apply the learned dummy parameterization to the original data to turn it into dummy variables
+airbnb_X <- data.frame(predict(dummy, newdata = airbnb_df)) 
+
+# convert taget variable to a factor
+airbnb_X$high_booking_rate.1 = as.factor(airbnb_X$high_booking_rate.1)
+
+# view the dummy variables dataframe
+summary(airbnb_X)
+
+
+```
+
+
+Split data into 70% training, 30% validation. 
+
+```{r code 2b}
+
+set.seed(1)
+
+# split the data into training and validation data using the dummy variables dataframe
+train_index <- sample(nrow(airbnb_X), 0.70* nrow(airbnb_X))
+data_train_airbnb <- airbnb_X[train_index, ]
+data_valid_airbnb <- airbnb_X[-train_index, ]
+
+```
+
+Train a logistic regression model to predict high_booking_rate in the training data (using the remaining variables as predictors). 
+
+**Accuracy in the validation data is 0.778** 
+
+```{r code 2c}
+
+# train logistic model
+logistic_model <- glm(high_booking_rate.1~., data= data_train_airbnb, family = "binomial")
+
+# display summary
+summary(logistic_model)
+
+# define a function that uses scores to classify based on a cutoff c
+classify <- function(scores, c){
+  classifications <- ifelse(scores > c, 1 , 0) 
+  return(classifications) 
+}
+
+# actuals:
+valid_actuals_airbnb <- data_valid_airbnb$high_booking_rate
+valid_actuals_airbnb <- factor(valid_actuals_airbnb, levels = unique(valid_actuals_airbnb))
+
+# logistic- predict values in validation data
+m1_predict <- predict(logistic_model, newdata = data_valid_airbnb, type = "response") 
+
+# make a confusion matrix given a cutoff of 0.5
+predicted_classifications_airbnb <- classify(m1_predict, .5)
+predicted_classifications_airbnb <- factor(predicted_classifications_airbnb, levels = unique(valid_actuals_airbnb))
+  
+
+CM1 = confusionMatrix(data = predicted_classifications_airbnb, 
+                reference = valid_actuals_airbnb,
+                positive = "1")
+
+print(CM1)
+print(as.numeric(CM1$overall["Accuracy"]))
+
+```
+
+## 3: Classification trees
+
+
+**There are 204 terminal nodes in full tree. Here, host_response.MISSING has the highest information gain leading to biggest decrease in impurity. The reason is that it is the first split in the tree ** 
+
+```{r code tree_setup}
+
+# create unpruned/full tree
+mycontrol = tree.control(nrow(data_train_airbnb), mincut = 5, minsize = 10, mindev = 0.0005)
+full_tree = tree(high_booking_rate.1~., control = mycontrol, data_train_airbnb)
+
+# view the tree to view terminal nodes and the variable with the highest information gain
+summary(full_tree)
+
+```
+
+
+```{r code3b}
+
+# create variables 
+tree_sizes = c(2, 4, 6, 8, 10, 15, 20, 25, 30, 35, 40)
+tr_accs = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+va_accs = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+
+# define a function to calculate accuracy
+accuracy <- function(classifications, actuals){
+  correct_classifications <- ifelse(classifications == actuals, 1, 0)
+  acc <- sum(correct_classifications)/length(classifications)
+  return(acc)
+}
+
+# loop to calculate training and validation accuracies
+num_sizes <- length(tree_sizes)
+for (i in c(1:num_sizes)){
+  tree_size <- tree_sizes[i]
+  
+  pruned_tree=prune.tree(full_tree, best = tree_size)
+  summary(pruned_tree)
+  
+  tree_tr_preds <- predict(pruned_tree, newdata = data_train_airbnb)
+  tree_tr_probs <- tree_tr_preds[,2]
+  tree_tr_class <- ifelse(tree_tr_probs>0.5, 1,0)
+  tr_accs[i] <- accuracy(tree_tr_class, data_train_airbnb$high_booking_rate)
+  
+  tree_va_preds <- predict(pruned_tree, newdata = data_valid_airbnb)
+  tree_va_probs <- tree_va_preds[,2]
+  tree_va_class <- ifelse(tree_va_probs>0.5, 1,0)
+  va_accs[i] <- accuracy(tree_va_class, data_valid_airbnb$high_booking_rate)
+  
+}
+
+# plot the tree
+plot(tree_sizes,tr_accs,col = "blue", type = 'l', ylim = c(0.7,0.8))
+lines(tree_sizes,va_accs, col = "red")
+
+# print the values
+print(tree_sizes)
+print(tr_accs)
+print(va_accs)
+
+```
+
+
+**Best tree size: 25, Selection criteria is maximum validation accuracy among the given k values.**
+**Validation accuracy for k=25 is 0.768.**
+**The logistic regression model has higher accuracy(0.778) than the best tree(0.768). Therefore, logistic model is chosen to predict high_booking_rate.**
+
+
+```{r code 3c}
+
+# determine best tree size
+best_validation_k_index <- which.max(va_accs) #tells us the index of the first occurence of the highest value in a vector
+best_k <- tree_sizes[best_validation_k_index] #tells us the k that has that index
+
+# print the values
+print(best_k)
+print(va_accs[best_validation_k_index])
+
+```
+
+## 4: kNN
+
+Set up for running kNN by separating the training and validation X matrices from the y variables.
+
+```{r code 4a}
+
+# kNN requires the X and y variables to be in separate data frames
+
+# X variable data frame
+airbnb_y <- airbnb_X$high_booking_rate.1
+
+# Here, we are removing last column in the dummy vars dataframe since it is a target variable.
+# y variable data frame
+airbnb_X <- airbnb_X[, -ncol(airbnb_X)]
+
+# partition the features into training and validation rows
+train_X <- airbnb_X[train_index,]
+valid_X <- airbnb_X[-train_index,]
+
+# partition the target variable into training and validation rows
+train_y <- airbnb_y[train_index]
+valid_y <- airbnb_y[-train_index]
+
+```
+
+
+
+```{r code 4b}
+
+
+kvec <- c(1,2,3,4,5,6,7,8,9,10,15,20,50,100,200) 
+
+# initialize storage
+va_acc <- rep(0, length(kvec))
+tr_acc <- rep(0, length(kvec))
+
+# loop to calculate training and validation accuracies
+for(i in 1:length(kvec)){
+  inner_k <- kvec[i]
+
+  inner_tr_preds <- knn(train_X, train_X, train_y, k=inner_k, prob = TRUE) 
+  inner_tr_acc <- accuracy(inner_tr_preds, train_y)
+  tr_acc[i] <- inner_tr_acc
+  
+  # now repeat for predictions in the validation data
+
+  inner_va_preds <- knn(train_X, valid_X, train_y, k=inner_k, prob = TRUE) 
+  inner_va_acc <- accuracy(inner_va_preds, valid_y)
+  va_acc[i] <- inner_va_acc
+    
+}
+
+
+# create the plot with log(k) on the x-axis
+plot(log(kvec),tr_acc,col = "blue", type = 'l', ylim = c(0.5,1))
+lines(log(kvec),va_acc, col = "red")
+
+# print the values
+print(kvec)
+print(tr_acc)
+print(va_acc)
+
+```
+
+ 
+**Best kNN model is k = 100, because it has the highest validation accuracy of 0.7546.**
+**Yes, I'm satisfied with the values tried. As increasing k to 200 is corresponding to a no change in validation accuracy.**
+
+
+```{r code 4c}
+
+
+# determine best model
+best_validation_k_index <- which.max(va_acc) #tells us the index of the first occurence of the highest value in a vector
+best_k <- kvec[best_validation_k_index] #tells us the k that has that index
+
+# print the values
+print(best_k)
+print(va_acc[best_validation_k_index])
+
+# determine validation accuracy for k = 100 and cutoff 0.5
+knn.pred=knn(train_X, #the training instances' features
+             valid_X, #the new instances we want to make predictions for
+             train_y, #the y values in the training data
+             k=100, #choose k
+             prob = TRUE) #get probabilities as well
+
+table(valid_y,knn.pred)
+accuracy(knn.pred, valid_y)
+
+knn.probs <- attr(knn.pred, "prob")
+knn_probof1 <- ifelse(knn.pred == 1, knn.probs, 1-knn.probs)
+
+# classify with cutoff of 0.5
+knn_class.5 <- ifelse(knn_probof1 >= 0.5, 1, 0)
+accuracy.5 <- accuracy(knn_class.5, valid_y)
+
+
+```
+
+
+**I would pick the logistic regression, which has the highest validation accuracy of 0.778 compared to other models.** 
+
+
