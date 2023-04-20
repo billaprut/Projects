@@ -1,18 +1,8 @@
-##BUDT 758T - Data Mining and Predictive Analytics
-##Practice script: lecture 16
-##Author: Professor Jessica Clark
-##Topic: Ensemble Methods
-
-#you might need to do:
-#install.packages("randomForest")
-#install.packages("gbm")
-#install.packages("ISLR")
 
 #load libraries for ensemble methods
 library(randomForest)
 library(gbm)
 
-#note: the ISLR library goes along with our textbook. It comes with a bunch of datasets.
 library(ISLR)
 
 set.seed(1)
@@ -66,9 +56,6 @@ boost_data$Purchase <- ifelse(OJ$Purchase=="CH",1,0)
 boost_train <- boost_data[train_inst,]
 boost_valid <- boost_data[-train_inst,]
 
-#lots of things you can tune here: distribution, # of trees,
-#interaction.depth refers to the maximum depth of tree allowed
-#refer to https://www.rdocumentation.org/packages/gbm/versions/2.1.8/topics/gbm
 boost.mod <- gbm(Purchase~.,data=boost_train,
                  distribution="bernoulli",
                  n.trees=1000,
@@ -79,12 +66,3 @@ boost_preds <- predict(boost.mod,newdata=boost_valid,type='response',n.trees=100
 boost_class <- ifelse(boost_preds>.5,1,0)
 boost_acc <- mean(ifelse(boost_class==boost_valid$Purchase,1,0))
 boost_acc
-
-#you may want to look into this for your project: https://cran.r-project.org/web/packages/xgboost/xgboost.pdf
-
-##TRY IT YOURSELF
-#1: Try to improve on the performance of the RF model by changing either mtry, the number of trees, or both. Report your model specification and validation accuracy.
-
-
-
-#2: Try to improve on the performance of the Boosting model by changing either n.trees, interaction.depth, or something else. Report your model specification and validation accuracy.
